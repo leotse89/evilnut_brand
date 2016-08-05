@@ -3,16 +3,17 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-
-	<title>Evilnut Technology</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="The HTML5 Herald">
-	<meta name="author" content="Evilnut Technology">
+	<meta name="author" content="Evilnut Technology Ltd">
+	<meta name="description" content="Evilnut Creative Technology is a Vancouver and Toronto software company that provides affordable and professional digital services such as web design, web development, app development, VPS hosting, digital design, graphic design, logo design, etc.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Evilnut Technology Ltd.</title>
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -23,9 +24,48 @@
 	padding: 0;
 	margin: 0;
 }
-body{
+
+body {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.business-header {
+    height: 400px;
+    background: url('./evilnut_code.jpeg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#intro-wrapper{
+	text-align: center;
+    margin-top: 120px;
+}
+
+#evilnut_logo{
+	max-width: 350px;
+	width: 70%;
+}
+
+.tagline {
+    text-align: center;
+    color: #FFF;
+	text-shadow: 0 0 10px #000;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.center-text{
+	text-align: center;
+}
+
+footer {
+    margin: 50px 0;
+}
+
 #preloader_div{
 	position: fixed;
 	top: 0;
@@ -35,7 +75,10 @@ body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
+	background-color: #FFF;
+	z-index: 10000;
 }
+
 #preloader_img{
 	margin-top: 22%;
 }
@@ -46,21 +89,87 @@ body{
 		<img id="preloader_img" src="./preloader.gif" />
 	</div>
 
-	<section id="wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					Evilnut Technology Inc.
-				</div>
-			</div>
-		</div>
-	</section>
+	<header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div id="intro-wrapper" class="col-lg-12">
+                	<img id="evilnut_logo" src="./evilnut_logo_white.png">
+                    <h1 class="tagline">Evilnut Linux Hosting</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Thank you for choosing Evilnut!</h2>
+                <p>Thank you for giving us the opportunity to serve you. We appreciate your business and the confidence you have placed in us.</p>
+                <p>If you are the web master of this domain, feel free to contact Evilnut Technology for instructions to access the server. You can then replace this default index page with your desired home page.</p>
+                <p>
+                    <a class="btn btn-default" target="_blank" href="http://www.evilnut.ca/">Visit Our Website &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <address>
+                    <abbr title="Phone">Vancouver:</abbr> 604-704-6605
+                    <br>
+                    <abbr title="Phone">Toronto:</abbr> 647-923-2313
+                    <br>
+                    <abbr title="Email">Email:</abbr> service@evilnut.ca
+                </address>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4 center-text">
+                <img class="img-circle img-responsive img-center" src="./web.jpg" alt="Evilnut Technology Web Design & Development">
+                <h2>Web Design & Development</h2>
+                <p>
+                	Evilnut Technology creates effective web presences for your business. We specialize in designing powerful branding and developing fabulous websites that are compatible with the latest devices.
+                </p>
+            </div>
+            <div class="col-sm-4 center-text">
+                <img class="img-circle img-responsive img-center" src="./app.jpg" alt="Evilnut Technology App Development">
+                <h2>Mobile App Development</h2>
+                <p>Evilnut Technology builds awesome mobile apps (native or hybrid depends on your budget) that focus on user usability, performance, and elegant design for any kinds of business.</p>
+            </div>
+            <div class="col-sm-4 center-text">
+                <img class="img-circle img-responsive img-center" src="./seo.jpg" alt="Evilnut Technology SEO Service">
+                <h2>SEO</h2>
+                <p>Evilnut Technology offers several search engine optimization services. We are specialized in natural, organic, or free search-results strategies. We promise our customers to increase visibility and traffic of their web presences.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Evilnut Technology Ltd. 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<script type="text/javascript">
   	$( document ).ready(function() {
-	    $("#preloader_div").hide();
+	    $("#preloader_div").fadeOut(2000);
 	});
   	</script>
 </body>
